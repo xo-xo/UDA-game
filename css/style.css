@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+#stage {
+	width: 505px;
+	height: 606px;
+	position: relative;
+	margin: 0 auto;
+}
+
+canvas {
+	position: absolute;
+}
+
+#ui-layer {
+	z-index: 4
+}
+
+#enemy-layer {
+	z-index: 3
+}
+
+#player-layer {
+	z-index: 2
+}
+
+#bg-layer {
+	z-index: 1
+}
